@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Javascript Array.filter()</h2>
+        <p>Creates a new array with all array elements that passes through the test </p>
+        <p id = "demo"></p>
+        <script>
+            const numbers = [111,24,12,9,6];
+            // const over18  = numbers.filter (myFunction);
+            // // const over18  = numbers.map (myFunction);
+            // document.getElementById("demo").innerHTML = over18;
+            // function myFunction(value,index,array) {
+            //    return value > 18;
+            
+            let sum = numbers.reduce(myFunction);
+            document.getElementById("demo").innerHTML = "the sum is "+sum;
+            function myFunction(total,value,index,array)
+            {
+                          return total+value;
+                         
+            }   
+        </script>
+    </body>
+</html>

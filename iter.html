@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>  Javascript Array.map()</h2>
+    <p>Creates a new array by performing a function on each array elements </p>
+    <p id = "demo"></p>
+    <script>
+        const numbers1 = [1,15,9,39,10];
+        const numbers2 = numbers1.map(myFunction);
+        document.getElementById("demo").innerHTML = numbers2;
+                function myFunction(value,index,array){
+            return value * 2;
+        }
+    </script>
+</body>
+</html>

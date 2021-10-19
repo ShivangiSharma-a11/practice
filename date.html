@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Javascript new dates() </h2>
+        <p id = "demo"></p>
+        <script>
+            const d = new Date();
+            //document.getElementById("demo").innerHTML = d;
+            // document.getElementById("demo").innerHTML = d.getMonth();
+            const months = ["january","february","march","april","may","june","july","august","september","october","november","december"];
+            document.getElementById("demo").innerHTML = months[d.getMonth()];
+        </script>
+
+    </body>
+</html>
